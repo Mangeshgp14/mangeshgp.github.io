@@ -1,0 +1,36 @@
+*{
+    border: 0;
+    margin: 0;
+
+}
+
+.container{
+
+    border: 1px solid black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.headline {
+    font-size: 100px; /* Default font size */
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 1100px) {
+    .headline {
+        font-size: 80px; /* Adjust font size for smaller screens */
+    }
+}
+
+/* Media query for even smaller screens */
+@media only screen and (max-width: 800px) {
+    .headline{
+        font-size: 60px; /* Further adjust font size for very small screens */
+    }
+}
