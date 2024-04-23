@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="reg_form.css">
+</head>
+<body>
+    <h1>Fill your details to create a profile</h1>
+
+    <div class = "form_container">
+
+        <form action="explore.html">
+
+            <div>
+                <label for="Name">Full Name</label>
+                <input type="text" name="Name" id="Name" required>
+            </div>
+
+            <div>
+                <label for="SapID">SAP Id</label>
+                <input type="number" name="SapID" id="SapID" required>
+            </div>
+
+            <div>
+                <label for="Dept">Department</label>
+                <input type="text" name="Dept" id="Dept" required>
+            </div>
+
+            <div>
+                <label for="email_id">Email Id</label>
+                <input type="email" name="email_id" id="email_id" >
+            </div>
+
+            <div>
+                <label for="No_of_Exp">No. Of Experience</label>
+                <input type="number" name="No_of_Exp" id="No_of_Exp" >
+            </div>
+
+            <h3>Tick the skills you have</h3>
+
+            <div>
+                <label for="excel">Excel</label>
+                <input type="radio" name="excel" id="excel" >
+            </div>
+            <div>
+                <label for="powerbi">Power BI</label>
+                <input type="radio" name="powerbi" id="powerbi" >
+            </div>
+            <div>
+                <label for="sql">SQL</label>
+                <input type="radio" name="sql" id="sql" >
+            </div>
+            <div>
+                <label for="powerapps">Power Apps</label>
+                <input type="radio" name="powerapps" id="powerapps" >
+            </div>
+            <div>
+                <label for="python">Python</label>
+                <input type="radio" name="python" id="python" >
+            </div>
+
+            <div>
+                <input type="submit" value="Save" id = "save_btn">
+            </div>
+
+        </form>
+
+    </div>
+</body>
+</html>
