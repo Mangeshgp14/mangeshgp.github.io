@@ -11,7 +11,7 @@
 
     <div class = "form_container">
 
-        <form action="explore.html">
+        <form action="registration" method="post">
 
             <div>
                 <label for="Name">Full Name</label>
@@ -29,16 +29,21 @@
             </div>
 
             <div>
-                <label for="email_id">Email Id</label>
-                <input type="email" name="email_id" id="email_id" >
+                <label for="email_id">Email Id</label required>
+                <input type="email" name="email_id" id="Email_id" >
             </div>
 
             <div>
-                <label for="No_of_Exp">No. Of Experience</label>
+                <label for="No_of_Exp">No. Of Experience</label required>
                 <input type="number" name="No_of_Exp" id="No_of_Exp" >
             </div>
 
-            <h3>Tick the skills you have</h3>
+            <div>
+                <label for="Skills">Skills</label>
+                <input type="text" name="Skills" id="Skills" >
+            </div>
+
+            <!-- <h3>Tick the skills you have</h3>
 
             <div>
                 <label for="excel">Excel</label>
@@ -60,10 +65,11 @@
                 <label for="python">Python</label>
                 <input type="radio" name="python" id="python" >
             </div>
+            -->
 
             <div>
                 <input type="submit" value="Save" id = "save_btn">
-            </div>
+            </div> 
 
         </form>
 
